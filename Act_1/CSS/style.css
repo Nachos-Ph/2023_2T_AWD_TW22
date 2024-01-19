@@ -1,15 +1,21 @@
+
+
+
 * {
+    
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    transition: background-color 1s;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(253, 243, 230);
 }
 
 .container {
@@ -17,13 +23,14 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(252, 237, 215);
     margin: 50px;
     box-shadow: 0 35px 55px rgba(0, 0 ,0, 0.05);
 }
 
 button {
     margin: 25px;
+    cursor: pointer;
 }
 
 .top {
@@ -31,11 +38,11 @@ button {
     width: 100%;
     height: 400px;
     padding: 50px;
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
-    color: white;
+    background-color: rgb(252, 237, 215);
 }
 
 h2 {
+    background-color: #f3f3f3;
     font-size: 3em;
     text-transform: uppercase;
     line-height: 0.7em;
@@ -58,7 +65,7 @@ h2 span {
 
 .group .imgbx {
     position:relative;
-    width: 100%;
+    width: 82%;
 }
 
 .group .imgbx img {
@@ -85,8 +92,8 @@ h4 {
     font-size: 1.1em;
     text-transform: uppercase;
     letter-spacing: .15rem;
-    color: #fff;
-    background: #231fbf;
+    color: #000;
+    background: #f3f3f3;
     font-weight: 600;
     padding: 0px 15px;
     margin-top: 40px;
@@ -108,11 +115,11 @@ h4 {
 }
 
 .Contactinfo li .icon {
-    color: #231fbf;
+    color: #161618;
 }
 
 .Contactinfo li .text {
-    color: #555;
+    color: #161618;
 }
 
 .skills {
@@ -130,15 +137,92 @@ h4 {
 }
 
 .skills li .icon {
-    color: #231fbf;
+    color: #161618;
 }
 
 .skills li .text {
-    color: #555;
+    color: #161618;
 }
 
 .margin {
     margin-top: -10px;
 }
 
+.educ {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.educbx {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: 20px;
+}
+
+.educbx p {
+    font-weight: 500;
+}
+
+.educbx b {
+    font-weight: 600;
+    font-size: 20px;
+    color: #161618;
+    padding-right: 10px;
+}
+
+.exp {
+    padding-top: 35px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 0 3fr 3fr 1.5fr;
+    font-size: 20px;
+}
+.exp p {
+    font-weight: 500;
+}
+
+.exp b {
+    font-weight: 600;
+    font-size: 20px;
+    color: #161618;
+    margin-bottom: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #555;
+}
+
+.hobbies {
+    padding: 0 50px 50px;
+}
+
+.hobbies ul {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.hobbies ul li {
+    list-style: none;
+    color: 333;
+    width: calc(100% / 5);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.hobbies ul li i {
+    color: #161618;
+    font-size: 5rem;
+    box-shadow: 0 35px 55px rgba(0, 0 ,0, 0.05);
+}
 
