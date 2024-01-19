@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: antiquewhite;
+    background-color: rgb(216, 216, 216);
 }
 
 .container {
@@ -17,9 +17,13 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background-color: blanchedalmond;
+    background-color: rgb(243, 243, 243);
     margin: 50px;
     box-shadow: 0 35px 55px rgba(0, 0 ,0, 0.05);
+}
+
+button {
+    margin: 25px;
 }
 
 .top {
@@ -27,13 +31,15 @@ body {
     width: 100%;
     height: 400px;
     padding: 50px;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    color: white;
 }
 
 h2 {
     font-size: 3em;
     text-transform: uppercase;
     line-height: 0.7em;
-    letter-spacing: 0.1em;
+    letter-spacing: .3rem;
 }
 
 h2 span {
@@ -62,3 +68,77 @@ h2 span {
 .group p {
     font-size: 1.05rem;
 }
+
+.bottom {
+    position: relative;
+    display: grid;
+    margin: 50px 50px 0;
+    gap: 40px;
+    grid-template-columns: 2fr 3fr;
+}
+
+.bottom .left-side {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: #fff;
+    background: #231fbf;
+    font-weight: 600;
+    padding: 0px 15px;
+    margin-top: 40px;
+    display: inline-flex;
+}
+
+.Contactinfo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0
+}
+
+.Contactinfo li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.Contactinfo li .icon {
+    color: #231fbf;
+}
+
+.Contactinfo li .text {
+    color: #555;
+}
+
+.skills {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0
+}
+
+.skills li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.skills li .icon {
+    color: #231fbf;
+}
+
+.skills li .text {
+    color: #555;
+}
+
+.margin {
+    margin-top: -10px;
+}
+
+
