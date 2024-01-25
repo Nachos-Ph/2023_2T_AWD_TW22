@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ccc;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+h1{
+    text-align: center;
+}
+
+#mytable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid white;
+    font-size: 18px;
+}
+
+#mytable th, #mytable td{
+    border: 1px solid white;
+    padding: 12px;
+}
